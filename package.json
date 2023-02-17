@@ -1,0 +1,28 @@
+{
+	"name": "@sqrls/site",
+	"type": "module",
+	"version": "0.1.0",
+	"author": {
+		"name": "just squirrels"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/just-squirrels/site.git"
+	},
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/node": "^5.0.3",
+		"@astrojs/svelte": "^2.0.2",
+		"@astrojs/tailwind": "^3.0.1",
+		"astro": "^2.0.13",
+		"nanostore": "^1.2.1",
+		"svelte": "^3.55.1",
+		"tailwindcss": "^3.2.7"
+	}
+}
