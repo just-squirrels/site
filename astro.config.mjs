@@ -7,5 +7,8 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   integrations: [svelte(), tailwind()],
-  output: "static"
+  output: "static",
+  build: {
+    assets: "assets"
+  }
 });
